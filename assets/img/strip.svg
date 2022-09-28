@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="451" viewBox="0 0 50 451">
+  <g id="Group_30683" data-name="Group 30683" transform="translate(-210 -1722.999)">
+    <g id="Group_30689" data-name="Group 30689" transform="translate(-0.136)">
+      <line id="Line_7" data-name="Line 7" y2="401" transform="translate(234.136 1772.999)" fill="none" stroke="#0077b6" stroke-width="1" stroke-dasharray="6 6"/>
+      <path id="Path_29069" data-name="Path 29069" d="M.2.2,7,0,6.8,6.8,0,7Z" transform="translate(229.136 2168.949) rotate(-45)" fill="#0077b6"/>
+    </g>
+    <path id="Complete_Icon" data-name="Complete Icon" d="M178.38,469.75a25,25,0,1,0,25,25A24.993,24.993,0,0,0,178.38,469.75Zm12.188,20.406L176.942,503.75a3.057,3.057,0,0,1-4.406,0l-6.344-6.312a3.112,3.112,0,0,1,0-4.406,3.15,3.15,0,0,1,4.438,0l4.094,4.094L186.13,485.75a3.15,3.15,0,0,1,4.438,0A3.112,3.112,0,0,1,190.568,490.156Z" transform="translate(56.62 1253.249)" fill="#0077b6" fill-rule="evenodd"/>
+  </g>
+</svg>
