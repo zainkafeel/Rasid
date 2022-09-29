@@ -261,6 +261,9 @@ body {
   font-size: 1.5rem;
   font-weight: 900;
 }
+.testimonial .nav-link {
+  color: #fff;
+}
 
 .contact {
   background-color: #171717;
