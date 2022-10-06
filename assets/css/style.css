@@ -166,17 +166,73 @@ body {
   top: 5px;
   right: -15px;
 }
-.fifth .box-2 .content {
-  width: 100%;
-  text-align: left;
+.fifth .box-2 .timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
 }
-.fifth .box-2 .img {
-  height: 100%;
+.fifth .box-2 .timeline img {
+  width: 100%;
+}
+.fifth .box-2 .timeline li:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: url("../img/strip.svg") !important;
+  margin-left: -1.5px;
+  left: 48%;
+}
+.fifth .box-2 .timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.fifth .box-2 .timeline > li:before,
+.fifth .box-2 .timeline > li:after {
+  content: " ";
+  display: table;
+}
+.fifth .box-2 .timeline > li:after {
+  clear: both;
+}
+.fifth .box-2 .timeline > li:before,
+.fifth .box-2 .timeline > li:after {
+  content: " ";
+  display: table;
+}
+.fifth .box-2 .timeline > li:after {
+  clear: both;
+}
+.fifth .box-2 .timeline > li > .timeline-panel {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.fifth .box-2 .timeline > li.timeline-inverted + li:not(.timeline-inverted),
+.fifth .box-2 .timeline > li:not(.timeline-inverted) + li.timeline-inverted {
+  margin-top: 80px;
+}
+.fifth .box-2 .timeline > li:not(.timeline-inverted) {
+  padding-right: 90px;
+}
+.fifth .box-2 .timeline > li.timeline-inverted {
+  padding-left: 90px;
+}
+.fifth .box-2 .timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  padding: 0 20px;
 }
 .fifth .divider {
   width: 100%;
   height: 1px;
   background-color: #EBEBEB;
+}
+.fifth .green-strip .timeline li:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: url("../img/strip-green.svg") !important;
+  margin-left: -1.5px;
+  left: 48%;
 }
 
 .client {

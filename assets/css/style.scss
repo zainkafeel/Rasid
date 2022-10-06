@@ -190,19 +190,87 @@ body{
     }
     }
    .box-2{
-    .content{
+    .timeline {
+	list-style: none;
+	padding: 20px 0 20px;
+	position: relative;
+    img{
         width: 100%;
-        text-align: left;
     }
-    .img{
-        height: 100%;
-    }
+}
+.timeline li:before {
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content: url('../img/strip.svg') !important;
+	margin-left: -1.5px;
+	left: 48%;
+}
+
+.timeline>li {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+	content: " ";
+	display: table;
+}
+
+.timeline>li:after {
+	clear: both;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+	content: " ";
+	display: table;
+}
+
+.timeline>li:after {
+	clear: both;
+}
+
+.timeline>li>.timeline-panel {
+	width: 50%;
+	float: left;
+	position: relative;
+	
+}
+
+.timeline>li.timeline-inverted+li:not(.timeline-inverted),
+.timeline>li:not(.timeline-inverted)+li.timeline-inverted {
+	margin-top: 80px;
+}
+
+.timeline>li:not(.timeline-inverted) {
+	padding-right: 90px;
+}
+
+.timeline>li.timeline-inverted {
+	padding-left: 90px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+	float: right;
+    padding: 0 20px;
+}
+
    }
    .divider{
     width: 100%;
     height: 1px;
     background-color: #EBEBEB;
    }
+   .green-strip .timeline li:before {
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content: url('../img/strip-green.svg') !important;
+	margin-left: -1.5px;
+	left: 48%;
+}
 }
 
 // client
